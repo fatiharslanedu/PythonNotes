@@ -1,0 +1,18 @@
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Terminated PID: 32533, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 32532, PPID: 26737
+
+
+Case a:
+
+Pipe was created successfully...
+Parent       -> My PID is 31644, PPID is 26737
+Child        -> My PID is 31645, PPID is 31644
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:33:26 2021
+             -> Last updated time Wed May  5 17:33:26 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send. Warning: Type Constraint!
+Child        -> Sleeping 4 secs

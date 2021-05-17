@@ -1,0 +1,114 @@
+Case True:
+Pipe was created successfully...
+Parent       -> My PID is 32532, PPID is 26737
+Child        -> My PID is 32533, PPID is 32532
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:41:00 2021
+             -> Last updated time Wed May  5 17:41:00 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send.
+Child        -> Sleeping 4 secs
+Parent       -> Incomming message from child is: 902227654321
+             -> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other!
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Terminated PID: 32533, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 32532, PPID: 26737
+
+
+Case a:
+
+Pipe was created successfully...
+Parent       -> My PID is 31644, PPID is 26737
+Child        -> My PID is 31645, PPID is 31644
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:33:26 2021
+             -> Last updated time Wed May  5 17:33:26 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send. Warning: Type Constraint!
+Child        -> Sleeping 4 secs
+Parent       -> Incomming message from child is: 902221383705
+             -> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other!
+Warning: Last 7 digits smaller than reverse.
+Parent        -> Alarm clock signal was scheduled in 6 seconds...
+Alarm Handler-> Alarm clock signal has been received
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Terminated PID: 31645, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 31644, PPID: 26737
+
+
+Case b-1:
+
+Pipe was created successfully...
+Parent       -> My PID is 32260, PPID is 26737
+Child        -> My PID is 32261, PPID is 32260
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:39:05 2021
+             -> Last updated time Wed May  5 17:39:05 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send. Warning: Type Constraint!
+Child        -> Sleeping 4 secs
+Parent       -> Incomming message from child is: 903741234567
+             -> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other!
+Parent       -> Alarm clock signal was scheduled in 4 seconds...
+Alarm Handler-> Alarm clock signal has been received
+Warning: Last 7 digits smaller than reverse.
+Parent        -> Alarm clock signal was scheduled in 6 seconds...
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Alarm Handler-> Alarm clock signal has been received
+Terminated PID: 32261, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 32260, PPID: 26737
+
+
+Case b-2:
+
+
+Pipe was created successfully...
+Parent       -> My PID is 32127, PPID is 26737
+Child        -> My PID is 32128, PPID is 32127
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:37:23 2021
+             -> Last updated time Wed May  5 17:37:23 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send. Warning: Type Constraint!
+Child        -> Sleeping 4 secs
+Parent       -> Incomming message from child is: 903747654321
+             -> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other!
+Parent       -> Alarm clock signal was scheduled in 4 seconds...
+Alarm Handler-> Alarm clock signal has been received
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Terminated PID: 32128, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 32127, PPID: 26737
+
+Case c:
+
+Pipe was created successfully...
+Parent       -> My PID is 32406, PPID is 26737
+Child        -> My PID is 32407, PPID is 32406
+             -> /home/fatih/Desktop/Archive/Lessons/OS Lab/Week#10/Lab/phone.txt
+             -> Last modified time: Wed May  5 17:40:13 2021
+             -> Last updated time Wed May  5 17:40:13 2021
+Child        -> Parsing and printing Phone Number (Hardcodded, just for info)
+Child        -> The message is being send. Warning: Type Constraint!
+Child        -> Sleeping 4 secs
+Parent       -> Incomming message from child is: 912227654321
+             -> Hint: Incoming message size is fixed 8 bytes for this application. Not 12 (digit count) or something other!
+             -> Please enter the area code with 90. Check the file.
+Parent       -> Alarm clock signal was scheduled in 6 seconds...
+Alarm Handler-> Alarm clock signal has been received
+Parent       -> Child process is being waited.
+Child        -> Sleept 4 secs
+Terminated PID: 32407, PPID: 26737
+Parent       -> Waiting is done.
+Terminated PID: 32406, PPID: 26737
+
+
+
+
