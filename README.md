@@ -30,4 +30,22 @@
 <li>Chapter 27: Heapq</li>
 <li>Chapter 28: Tuple</li>
 <li>Chapter 29: Basic Input and Output</li>
-
+<li>Chapter 30: Files & Folders I/O</li>
+<li>Chapter 31: os.path</li>
+<li>Chapter 32: Iterables and Iterators</li>
+<li>Chapter 33: Functions</li>
+<li>Chapter 34: Deﬁning functions with list arguments</li>
+<li>Chapter 35: Functional Programming in Python</li>
+<li>Chapter 36: Partial functions</li>
+<li>Chapter 37: Decorators</li>
+<li>Chapter 38: Classes</li>
+<li>Chapter 39: Metaclasses</li>
+<li>Chapter 40: String Formatting</li>
+<li>Chapter 41: String Methods</li>
+<li>Chapter 42: Using loops within functions</li>
+<li>Chapter 43: Importing modules</li>
+<li>Chapter 44: Dierence between Module and Package</li>
+<li>Chapter 45: Math Module</li>
+<li>Chapter 46: Complex math</li>
+<li>Chapter 47: Collections module</li>
+<li>Chapter 48: Operator module</li>
